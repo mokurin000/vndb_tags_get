@@ -1,0 +1,14 @@
+[package]
+name = "vndb_tags_get"
+version = "1.2.0"
+authors = ["poly000 <pedajilao@vip.qq.com>"]
+edition = "2021"
+license = "MIT"
+description = "convert VNDB tag list (JSON to markdown)"
+categories = ["conversion", "vndb"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
