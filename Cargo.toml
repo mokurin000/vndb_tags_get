@@ -12,3 +12,9 @@ categories = ["conversion", "vndb"]
 [dependencies]
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
+
+[profile.release]
+lto = true
+strip = true
+panic = "abort"
+

@@ -25,7 +25,7 @@ meta 	     bool 	            no 	这个是不是元标签。这个字段仅为�
 searchable 	 bool 	            no 	是否可能用这个标签过滤VN。
 applicable 	 bool 	            no 	这个标签是否可以对VN使用。
 vns 	     integer 	        no 	（包括子标签） 标签下有多少VN
-cat 	     string 	        no 	标签分类: "cont" for 内容, "ero" for 性相关, "tech" for 技术性细节
+cat 	     string 	        no 	标签分类: "cont" 为内容, "ero" 为性相关, "tech" 为技术性细节
 aliases 	 array of strings 	no 	（可能为空） 别名的列表。
 parents 	 array of integers 	no 	父标签列表（对于根标签是空的）
 */
