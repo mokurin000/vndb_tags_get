@@ -6,6 +6,7 @@ edition = "2021"
 license = "MIT"
 description = "convert VNDB tag list (JSON to markdown)"
 categories = ["conversion", "vndb"]
+repository = "https://github.com/poly000/vndb_tags_get"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
